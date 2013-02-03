@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:screenOrientation="portrait" >
+
+ 	<EditText
+ 	    android:id="@+id/company_name"
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:hint="@string/company_name"
+ 	    android:paddingTop="25dp" />
+ 	
+ 	<EditText
+ 	    android:id="@+id/trank"
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:hint="@string/trank"
+ 	    android:inputType="number"
+ 	    android:paddingTop="25dp" />
+
+ 	<EditText
+ 	    android:id="@+id/yrank"
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:hint="@string/yrank"
+ 	    android:inputType="number"
+ 	    android:paddingTop="25dp" />
+ 	
+ 	<Button
+ 	    android:id="@+id/add_button"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_gravity="center"
+ 	    android:text="@string/addinfo" />
+ 	
+ 	<Button
+ 	    android:id="@+id/match_button"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_gravity="center"
+ 	    android:text="@string/match" />
+ 	
+ 	<TextView
+ 	    android:id="@+id/match_text"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_gravity="center_horizontal"
+ 	    android:textSize="50sp" />"
+
+</LinearLayout>

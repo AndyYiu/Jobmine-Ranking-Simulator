@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jobmine Simulator Android</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="company_name">Company Name</string>
+    <string name="trank">Their Ranking</string>
+    <string name="yrank">Your Ranking</string>
+    <string name="match">Match Me!</string>
+    <string name="addinfo">Add To List</string>
+
+</resources>
